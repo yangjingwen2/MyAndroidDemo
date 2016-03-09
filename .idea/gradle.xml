@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/baidumapdemo" />
+            <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/eventdispatchdemo" />
+            <option value="$PROJECT_DIR$/fragmenttabdemo" />
+            <option value="$PROJECT_DIR$/gsondemo" />
+            <option value="$PROJECT_DIR$/imageloaderdemo" />
+            <option value="$PROJECT_DIR$/imageloaderlibrary" />
+            <option value="$PROJECT_DIR$/planedemo" />
+            <option value="$PROJECT_DIR$/swipyrefreshlayoutlib" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

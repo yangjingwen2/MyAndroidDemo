@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/A1504Demo.iml" filepath="$PROJECT_DIR$/A1504Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baidumapdemo/baidumapdemo.iml" filepath="$PROJECT_DIR$/baidumapdemo/baidumapdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventdispatchdemo/eventdispatchdemo.iml" filepath="$PROJECT_DIR$/eventdispatchdemo/eventdispatchdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmenttabdemo/fragmenttabdemo.iml" filepath="$PROJECT_DIR$/fragmenttabdemo/fragmenttabdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gsondemo/gsondemo.iml" filepath="$PROJECT_DIR$/gsondemo/gsondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloaderdemo/imageloaderdemo.iml" filepath="$PROJECT_DIR$/imageloaderdemo/imageloaderdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloaderlibrary/imageloaderlibrary.iml" filepath="$PROJECT_DIR$/imageloaderlibrary/imageloaderlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/planedemo/planedemo.iml" filepath="$PROJECT_DIR$/planedemo/planedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipyrefreshlayoutlib/swipyrefreshlayoutlib.iml" filepath="$PROJECT_DIR$/swipyrefreshlayoutlib/swipyrefreshlayoutlib.iml" />
+    </modules>
+  </component>
+</project>

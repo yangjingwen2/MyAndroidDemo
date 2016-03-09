@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    tools:context="com.example.yangjw.fragmenttabdemo.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/home_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:elevation="2dp"
+        app:title=" ">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="海呗"
+            android:textSize="24sp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/search" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <RadioGroup
+        android:id="@+id/home_tab_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_tab_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/home_tab_bg_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/home"
+            android:gravity="center"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/home_tab_discover"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/home_tab_bg_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/discover"
+            android:gravity="center"
+            android:text="发现" />
+
+        <RadioButton
+            android:id="@+id/home_tab_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/home_tab_bg_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/category"
+            android:gravity="center"
+            android:text="分类" />
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/home_tab_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/home_tab_radiogroup"
+        android:layout_below="@id/home_tool_bar"
+        android:fitsSystemWindows="true" />
+</RelativeLayout>
